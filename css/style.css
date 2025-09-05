@@ -486,7 +486,7 @@ MAIN-BLOCK
         font-size: 1;
     }
     .about-top{
-        margin-top: 150px!important;
+        margin-top: 130px!important;
     }
 }
 @media screen and (max-width: 375px){
@@ -504,7 +504,7 @@ MAIN-BLOCK
 		height: 700px;
 	}
     .about-top{
-        margin-top: 100px!important;
+        margin-top: 90px!important;
     }
     .about-block-item2{
         margin-top: 90px!important;
@@ -840,7 +840,7 @@ MAIN-BLOCK
 		top: 580px;
 		padding-bottom: 100px;
 	}
-	.curved-pink{padding-bottom: 100px;}
+	.curved-pink, .curved-white-top, .curved-green-top{padding-bottom: 100px;}
     .works-ttl {top: 220px;}
     .outline-txt{
         margin-top: 70px;
@@ -1014,7 +1014,7 @@ MAIN-BLOCK
 #works-page infomation
 ====================================*/
 .works-info ul{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .works-info ul li {
     display: flex;
@@ -1054,7 +1054,7 @@ MAIN-BLOCK
 	margin-bottom: 150px;
 }
 .design-image, .webdesign-grid, .three-design-grid{
-	margin-top: 70px;
+	margin-top: 90px;
 }
 .design-image-shadow{
 	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
@@ -1089,6 +1089,11 @@ h2.circle-two:first-child{
 h2.circle-two::before {
 }
 
+@media screen and (max-width: 1150px){
+	.design-image, .webdesign-grid, .three-design-grid{
+		margin-top: 80px;
+	}
+}
 @media screen and (max-width: 960px) {
     .works-block{
         margin-top: 70px;
@@ -1113,7 +1118,7 @@ h2.circle-two::before {
         margin-top: 50px;
     }
     .works-info ul{
-		margin-bottom: 70px;
+		margin-bottom: 100px;
 	}
     .works-info ul li {
         padding: 30px 0;
@@ -1127,7 +1132,7 @@ h2.circle-two::before {
         text-align: justify;
     }
 	.design-image, .webdesign-grid, .three-design-grid{
-		margin-top: 50px;
+		margin-top: 70px;
 	}
 	.webdesign-grid{gap: 30px;}
 	h2.circle-two {
@@ -1158,6 +1163,9 @@ h2.circle-two::before {
 	.venus-sp1{display: block!important;}
 }
 @media screen and (max-width: 499px){
+	.design-image, .webdesign-grid, .three-design-grid{
+		margin-top: 60px;
+	}
 	.works-design{
 		margin-bottom: 90px;
 	}
@@ -1175,7 +1183,7 @@ WORSKS LIST
 ====================================*/
 .works-list{
 	background: #eef1ea;
-	margin-top: 400px!important;
+	margin-top: 450px!important;
 	padding: 10px 0;
 }
 .works-list-first{
@@ -1406,7 +1414,7 @@ WORSKS LIST
 
 @media screen and (max-width: 1450px){
     .works-list{
-        margin-top: 370px!important;
+        margin-top: 410px!important;
     }
 }
 @media screen and (max-width: 1350px){
@@ -1423,7 +1431,7 @@ WORSKS LIST
         padding-bottom: 120px;
     }
 	.works-list{
-        margin-top: 350px!important;
+        margin-top: 400px!important;
     }
 	.works-list-container .card-inner {
 		height: 14.25rem;
@@ -1441,7 +1449,7 @@ WORSKS LIST
 }
 @media screen and (max-width: 960px){
 	.works-list{
-        margin-top: 300px!important;
+        margin-top: 350px!important;
     }
 	.works-list-container{
 		grid-template-columns: 1fr 1fr;
@@ -1457,7 +1465,7 @@ WORSKS LIST
         padding-bottom: 100px;
     }
 	.works-list{
-        margin-top: 280px!important;
+        margin-top: 340px!important;
     }
     .works-list-container{
         gap: 1rem;
@@ -1489,7 +1497,7 @@ WORSKS LIST
 @media screen and (max-width: 499px){
     .work-none{display: none;}
     .works-list{
-        margin-top: 200px!important;
+        margin-top: 270px!important;
     }
     .works-list-first{
         margin-top: 100px;
@@ -1508,7 +1516,11 @@ WORSKS LIST
     }
 }
 @media screen and (max-width: 375px){
-        .works-list-first{
+	    .works-list{
+        padding-top: 70px;
+			margin-top: 220px!important;
+    }
+	.works-list-first{
         margin-top: 120px;
         padding-bottom: 70px;
     }
@@ -1535,7 +1547,7 @@ FOOTER
 }
 .footer-cloud{
 	position: relative;
-	height: 450px;
+	height: 500px;
 	background-image:url("../images/cloud-left.png"), url("../images/cloud-right.png");
 	background-position:
 		left bottom,
@@ -1618,7 +1630,7 @@ FOOTER
 @media screen and (max-width: 960px){
 	.footer-cloud{
 		position: relative;
-		height: 350px;
+		height: 400px;
 		background-image:url("../images/cloud-left.png"), url("../images/cloud-right.png");
 		background-size: 400px;
 	}
@@ -1686,7 +1698,7 @@ FOOTER
     }
     .footer-name{
 		font-size: 2.525rem;
-        top: 50px;
+        top: 70px;
 	}
 	.footer-name span{
 		font-size: 2rem;
@@ -1729,12 +1741,12 @@ FOOTER
 @media screen and (max-width: 375px){
     .footer-cloud{
         background-size: 250px;
-		height: 200px;
-		top: -20px;
+		height: 250px;
+		top: 20px;
     }
     .footer-name{
 		font-size: 7.875vw;
-        top: 70px;
+        top: 100px;
 	}
     .footer-name span{
 		font-size: 6.725vw;
