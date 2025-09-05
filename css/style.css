@@ -1107,7 +1107,7 @@ h2.circle-two::before {
 		width: 70%;
 	}
 	.works-design{
-		margin-bottom: 100px;
+		margin-bottom: 120px;
 	}
 	.three-design-grid{
 		display: grid;
@@ -1172,7 +1172,7 @@ h2.circle-two::before {
 		margin-top: 60px;
 	}
 	.works-design{
-		margin-bottom: 90px;
+		margin-bottom: 100px;
 	}
 	.three-design-grid{gap: 20px;}
 	h2.circle-two {
