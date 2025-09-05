@@ -873,7 +873,7 @@ MAIN-BLOCK
     .black-bg{
         background-image: url("../images/menu-sp.jpg");
         background-size: cover;
-        background-position: 100%;
+        background-position: 100% 0;
         background-repeat: no-repeat;
     }
     .black-bg ul{
@@ -963,7 +963,7 @@ MAIN-BLOCK
       width: 35px;
       height: 22px;
     }
-        .black-bg{
+    .black-bg{
         background-image: url("../images/menu-sp.jpg");
         background-size: cover;
         background-position: 100% 0;
@@ -1798,18 +1798,17 @@ FOOTER
 #loading
 ==================================================*/
 .loader-bg {
-	align-items: center;
-	background-color: #FFFFFF;
-	margin: 0 auto;
-	display: flex;
+	width: 100vw;
 	height: 100vh;
+	z-index: 999999999999999999999;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	left: 0;
 	position: fixed;
 	top: 0;
-	width: 100vw;
-	z-index: 999999999999999999999;
 }
 
 .loader img {
