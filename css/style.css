@@ -1810,6 +1810,7 @@ FOOTER
 	z-index: 999999999999999999999;
 	background-color: #FFFFFF;
 	display: flex;
+	align-content: center;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -1817,7 +1818,6 @@ FOOTER
 	position: fixed;
 	top: 0;
 }
-
 .loader img {
 	display: block;
 	height: auto;
