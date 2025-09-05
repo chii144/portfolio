@@ -1505,7 +1505,7 @@ WORSKS LIST
 @media screen and (max-width: 499px){
     .work-none{display: none;}
     .works-list{
-        margin-top: 270px!important;
+        margin-top: 280px!important;
     }
     .works-list-first{
         margin-top: 80px;
@@ -1524,9 +1524,9 @@ WORSKS LIST
     }
 }
 @media screen and (max-width: 375px){
-	    .works-list{
+	.works-list{
         padding-top: 70px;
-			margin-top: 220px!important;
+		margin-top: 230px!important;
     }
 	.works-list-first{
         margin-top: 110px;
