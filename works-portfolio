@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CAO LE PHUONG CHI PORTFOLIO</title>
+<meta name="description" content="カオレーフォンチーのポートフォリオサイトです。">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta property="og:url" content="ページの URL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="カオレーフォンチーのポートフォリオ" />
+<meta property="og:description" content="ページの説明文" />
+<meta property="og:site_name" content="カオレーフォンチーのポートフォリオサイト" />
+<meta property="og:image" content="サムネイル画像の URL" />
+
+<link rel="icon" href="favicon/favicon.ico">
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style_secondary.css" rel="stylesheet" type="text/css">
+
+<!--venobox.css-->
+<link rel="stylesheet" href="css/venobox.css">
+
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- js -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="loader-bg js-loader-bg">
+  <div class="loader js-loader"><img src="images/loading.gif" alt=""/></div>
+	<div class="loading_text">Now Loading...</div>
+</div>
+
+<div id="body-wrapper">
+
+<!--*** header block ***-->
+<header>
+<div class="header">
+
+    <div class="chii-logo"><a href="index.html"><img src="images/chii-logo.png" alt="logo"></a></div>
+		
+    <div class="top-nav pc-nav">
+        <ul>
+			<li><a class="nav-list-item" href="index.html">ホーム<br><span>home</span></a></li>
+			<li><a class="nav-list-item" href="works.html">制作物<br><span>works</span></a></li>
+			<li><a class="nav-list-item" href="about.html">わたしのこと<br><span>about</span></a></li>
+        </ul>
+    </div>
+		
+    <div class="sp-nav">
+    <div class="hamb animation" id="hamb">
+      <span class="line animation"></span>
+      <span class="line animation"></span>
+      <span class="line animation"></span>
+    </div>
+    <div class="black-bg animation" id="black-bg">
+      <nav class="overlay">
+        <ul>
+          <li><a href="index.html">ホーム<br><span>home</span></a></li>
+          <li><a href="works.html">制作物<br><span>works</span></a></li>
+          <li><a href="about.html">わたしのこと<br><span>about</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+		
+</div>	
+</header><!--*** header block./ ***-->
+
+<!--*** main block ***-->
+<main>
+<section id="top" class="top">
+	<div class="top-mockup top-mockup-portofolio">
+	<h2 class="works-ttl inner-block2"><span class="works-ttl-1st">WEBSITE</span>ポートフォリオ</h2>
+	</div>
+</section>
+	
+<section class="curved curved-white">
+<h2 class="works-outline-ttl scroll_down">制作概要<span>OUTLINE</span></h2>
+</section>
+
+<!-- works-info -->
+<section class="works-block inner-block1">
+<div class="outline-txt scroll_up">自身の活動や作品を紹介するために制作したポートフォリオサイトです。Webデザイン、グラフィックデザイン、ロゴデザインなど幅広い制作物をまとめ、オンライン上で自分のスキルや実績をわかりやすく伝えることを意識しました。シンプルな構成に遊び心を加えることで、閲覧者に親しみやすさとプロフェッショナルな印象を同時に与えられるよう工夫しています。</div>
+
+<div class="works-info">
+	<ul>
+		<li class="works-info-list scroll_up">
+			<h3>目的</h3>
+			<p>ポートフォリオサイトの目的は、作品を体系的に見せることで自分のデザインスキルを証明すると同時に、人柄やバックグラウンドを伝えることにあります。さらに、名刺代わりに提示できるオンラインの「自己紹介ツール」として機能させ、仕事の機会やつながりを広げることを目指しました。</p>
+		</li>
+		<li class="works-info-list scroll_up">
+			<h3>ターゲット</h3>
+			<p>主なターゲットは、就職活動における採用担当者や、フリーランス活動でのクライアント、そしてデザイン業界でつながりたいクリエイティブ仲間です。初めて自分を知る人が「この人に仕事を任せてみたい」と思えるような印象を残すことを意識しました。</p>
+		</li>
+		<li class="works-info-list scroll_up">
+			<h3>デザイン</h3>
+			<p>全体のデザインは、赤と緑をメインカラーに設定し、自分の五行「火」の要素を反映させることで、個性と意味を持たせました。トップの「PORTFOLIO」ロゴには星や雲のモチーフを取り入れ、柔らかくフレンドリーな雰囲気を演出。作品紹介ページではカード型レイアウトを採用し、ひとつひとつの制作物が見やすく整理されています。「わたしのこと」セクションには写真と自己紹介を加え、閲覧者が親近感を持てるよう構成しました。全体を通じて、シンプルで清潔感のあるデザインをベースにしつつ、個性と温かさを感じられるサイトに仕上げています。</p>
+		</li>
+        <li class="works-info-list scroll_up">
+			<h3>制作期間</h3>
+			<p>３週間(企画、デザイン１週間・コーディング2週間)</p>
+		</li>
+        <li class="works-info-list scroll_up">
+			<h3>使用ツール</h3>
+			<p>Dreamweaver / Photoshop / Illustrator</p>
+		</li>
+	</ul>
+</div>
+</section><!-- works-info./ -->
+
+<!-- works-design -->
+<section class="works-design">
+	<h2 class="works-outline-ttl design scroll_down">デザイン<span>DESIGN</span></h2>
+	<div class="design-image inner-block1">
+		<img src="images/chirashi-line-1.jpg" alt="" class="design-image-shadow scroll_up">
+	</div>
+</section>
+<!-- works-design./ -->
+
+</main>
+
+<!-- works-other -->
+<section class="curved curved-green">
+	<h2 class="works-outline-ttl other scroll_down">他の制作物を見る<span>OTHER WORKS</span></h2>
+</section>
+
+<section class="works-list">
+	
+  <div class="works-list-container inner-block2">
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-belle.jpg" alt="やさしい靴工房">
+          </div>
+          <div class="icon"><a href="works-belle.html" class="iconBox arrow-red"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>やさしい靴工房Belle&amp;Sofa</h3>
+        <p>自社公式オンラインストアのサイトをリニューアルしました</p>
+        <ul>
+          <li class="design">web design</li>
+          <li class="coding">coding</li>
+        </ul>
+      </div>
+    </div>
+	
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-venus.jpg" alt="VENUSヴィーナスLP">
+          </div>
+          <div class="icon"><a href="works-venus.html" class="iconBox arrow-brown"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Belle&amp;Sofa VENUSヴィーナスLP</h3>
+        <p>新作パンプスを宣言するためLPページを制作しました</p>
+        <ul>
+          <li class="coding">coding</li>
+          <li class="design">responsive design</li>
+        </ul>
+      </div>
+    </div>
+	
+	<div class="card work-none">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-line.jpg" alt="LINEお友達募集チラシ">
+          </div>
+          <div class="icon"><a href="works-line.html" class="iconBox arrow-green"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>LINEお友達募集チラシ</h3>
+        <p>やさしい靴工房Belle&amp;Sofaの店舗スタッフ募集と新規顧客向けの商品紹介を兼ねたチラシを制作しました</p>
+        <ul>
+          <li class="design">flyer design</li>
+        </ul>
+      </div>
+    </div>
+	
+	<div class="card work-none">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-summer.jpg" alt="年夏休みワークショップ">
+          </div>
+          <div class="icon"><a href="works-summer.html" class="iconBox arrow-red"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>年夏休みワークショップ</h3>
+        <p>夏休みに開催された親子向けワークショップのチラシをデザインしました</p>
+        <ul>
+          <li class="design">flyer design</li>
+        </ul>
+      </div>
+    </div>
+	
+    <div class="card work-none">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-april.jpg" alt="エイプリルフールキャンペーン">
+          </div>
+          <div class="icon"><a href="works-ins.html" class="iconBox arrow-brown"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>エイプリルフールキャンペーン</h3>
+        <p>自社が実施するキャンペーン用のSNS・メルマガ画像をデザインしました</p>
+        <ul>
+          <li class="design">banner design</li>
+        </ul>
+      </div>
+    </div>
+	
+	<div class="card work-none">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="images/works-list-chii.jpg" alt="パーソナルブランディング">
+          </div>
+          <div class="icon"><a href="works-chii.html" class="iconBox arrow-brown"></a></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>パーソナルブランディング</h3>
+        <p>自己ブランディングを目的としてロゴをデザインしました</p>
+        <ul>
+          <li class="design">logo design</li>
+        </ul>
+      </div>
+    </div>
+</div>
+	
+<div class="button-23">
+	<a href="works.html">すべてを見る</a>
+</div>
+
+</section>
+<!-- works-other./ -->
+
+
+<!--*** footer block ***-->
+<footer class="footer">
+	
+<div class="footer-cloud">
+<h3 class="footer-name">
+<div>CAO LE PHUONG CHI</div>
+<div><span>Portofolio Site</span></div>
+</h3>
+</div>
+
+<div class="chii-gmail">
+	<a href="mailto:fuonchi144@gmail.com">fuonchi144@gmail.com</a>
+</div>
+
+<div class="footer_nav">
+<ul class="md-flex">
+    <li><a href="index.html">ホーム</a></li>
+    <li><a href="works.html">制作物</a></li>
+    <li><a href="about.html">わたしのこと</a></li>
+</ul>
+<p class="copyright">&copy; 2025 CAO LE PHUONG CHI</p>
+</div>
+</footer>
+<!--*** footer block./ ***-->
+
+</div>
+	
+<!--venobox.min.js-->
+<script src="js/venobox.min.js"></script>	
+</body>
+
+<script></script>
+
+</html>
