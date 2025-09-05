@@ -1822,7 +1822,7 @@ FOOTER
 	display: block;
 	height: auto;
 	width: 600px;
-	margin: 0 auto;
+	margin: auto;
 }
 .loading_text{
 	font-family: "Zen Maru Gothic", sans-serif;
@@ -1835,6 +1835,8 @@ FOOTER
 	.loader img {
 		height: auto;
 		width: 80%;
+	}
+	.loader-bg{
 	}
 }
 
