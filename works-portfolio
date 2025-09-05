@@ -80,7 +80,7 @@
 <!--*** main block ***-->
 <main>
 <section id="top" class="top">
-	<div class="top-mockup top-mockup-portofolio">
+	<div class="top-mockup top-mockup-portfolio">
 	<h2 class="works-ttl inner-block2"><span class="works-ttl-1st">WEBSITE</span>ポートフォリオ</h2>
 	</div>
 </section>
@@ -263,7 +263,7 @@
 <div class="footer-cloud">
 <h3 class="footer-name">
 <div>CAO LE PHUONG CHI</div>
-<div><span>Portofolio Site</span></div>
+<div><span>Portfolio Site</span></div>
 </h3>
 </div>
 
