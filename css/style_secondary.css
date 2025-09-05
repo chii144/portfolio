@@ -1,1 +1,648 @@
+@charset "utf-8";
+/* CSS Document */
 
+/*==================================================
+SECONDARY PAGE CSS
+==================================================*/
+.secondary-top{
+	background-image: linear-gradient(#ffffff, #eef1ea);
+	padding-top: 0;
+}
+.about-block{
+	background: #eef1ea;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.header-cloud{
+	position: relative;
+	height: 450px;
+	background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+	background-position:
+		left top,
+		right top;
+	background-repeat:
+		no-repeat,
+		no-repeat;
+	background-size: 600px;
+}
+
+.secondary-ttl{
+	font-family: "Kaisei Decol", serif;
+	font-size: 2.75rem;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	position: relative;
+	text-align: center;
+	top: 200px;
+	
+	display: flex;
+	flex-direction: column;
+}
+._top{
+    top: 100px;
+}
+._top2{
+    top: 0;
+}
+.secondary-ttl::before {
+	content: "";
+	width: 1px;
+	height: 40px;
+	background: #333333;
+	margin: 0 auto 10px;
+	display: block;
+}
+.secondary-ttl span{
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1.375rem;
+	font-weight: 400;
+	color: #920d14;
+}
+.works-list-second{
+	margin-top: -50px;
+	background: #eef1ea;
+	padding-bottom: 40px;
+}
+.works-category{
+	border-top: 1px solid #999999;
+	padding-top: 50px;
+}
+.cate-first{border: none;}
+.works-category h3{
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1.125rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+    position: relative;
+    padding: 5px 70px;
+    color: #920d14;
+	
+	background: linear-gradient(45deg, #efdbdc 0%, #efdbdc 50%, #FFF 50%, #FFF 100%);
+	border-radius: 100px;
+	width: fit-content;
+	
+}
+.about-category h3{
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1.125rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+    position: relative;
+    padding: 5px 70px;
+    color: #920d14;
+	
+	background: linear-gradient(45deg, #efdbdc 0%, #efdbdc 50%, #f1f3ed 50%, #f1f3ed 100%);
+	border-radius: 100px;
+	width: fit-content;
+}
+.works-category h3::before, .about-category h3::before{
+	content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+	left: 20px;
+    width: 35px;
+    height: 1px;
+    background-color: #920d14;
+}
+@media screen and (max-width: 1350px){
+    .secondary-ttl{
+		font-size: 2.375rem;
+	}
+	.secondary-ttl span{
+		font-size: 1.175rem;
+	}
+	.header-cloud{
+		position: relative;
+		height: 400px;
+		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-position:
+			left top,
+			right top;
+		background-repeat:
+			no-repeat,
+			no-repeat;
+		background-size: 420px;
+	}
+}
+@media screen and (max-width: 960px){
+	.header-cloud{
+		position: relative;
+		height: 350px;
+		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-position:
+			left top,
+			right top;
+		background-repeat:
+			no-repeat,
+			no-repeat;
+		background-size: 400px;
+	}
+}
+@media screen and (max-width: 767px){
+  
+}
+@media screen and (max-width: 650px){
+    .secondary-ttl{
+		font-size: 2.375rem;
+		 top: 170px;
+	}
+    ._top{
+        font-size: 2.375rem;
+        top: 100px;
+    }
+	.header-cloud{
+		position: relative;
+		height: 300px;
+		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-position:
+			left top,
+			right top;
+		background-repeat:
+			no-repeat,
+			no-repeat;
+		background-size: 300px;
+	}
+   
+}
+@media screen and (max-width: 499px){
+	.secondary-ttl{
+		font-size: 2rem;
+		top: 150px;
+	}
+    ._top{
+        font-size: 2rem;
+        top: 70px;
+    }
+	.secondary-ttl::before{
+		width: 1px;
+		height: 30px;
+	}
+	.secondary-ttl span{
+		font-size: 1rem;
+	}
+	.header-cloud{
+		position: relative;
+		height: 250px;
+		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-position:
+			left top,
+			right top;
+		background-repeat:
+			no-repeat,
+			no-repeat;
+		background-size: 270px;
+	}
+	.works-category h3{
+		font-size: 1rem;
+		padding: 5px 70px;
+	}
+  
+}
+@media screen and (max-width: 375px){
+	.header-cloud{
+		background-size: 250px;
+	}
+        ._top{
+        font-size: 2rem;
+        top: 70px;
+        
+    }
+}
+
+
+/*==================================================
+ABOUT-PAGE
+==================================================*/
+.about-block-item{
+	background: #FFF;
+	padding: 70px;
+	border-radius: 70px;
+	margin-bottom: 150px;
+}
+.profile-name{
+	font-family: "Kaisei Decol", serif;
+	letter-spacing: 0.05em;
+	font-size: 2.375rem;
+	font-weight: 400;
+	color: #a3b18a;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.profile-name p{
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #666666;
+}
+.profile-list ul{
+	display: grid;
+	grid-template-columns: 1fr 1.35fr;
+	gap: 70px;
+	align-items: center;
+}
+.profile-txt{
+	font-size: 1.125rem;
+}
+.profile-txt span{
+	font-family: sans-serif!important;
+}
+.profile-txt p{
+	margin-bottom: 20px;
+    text-align: justify;
+}
+.profile-img{
+	width: 100%;
+	height: auto;
+}
+.profile-img-sp{display: none;}
+.about-intro{
+	margin-top: 30px;
+}
+
+/*==================================================
+STRENTH
+==================================================*/
+.strength-card{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+	margin-top: 50px;
+}
+.card{
+    height: auto;
+}
+
+.neko-1{background: url("../images/neko-1.jpg")no-repeat center;}
+.neko-2{background: url("../images/neko-2.jpg")no-repeat center;}
+.neko-3{background: url("../images/neko-3.jpg")no-repeat center;}
+.card__imgframe{
+    width: 100%;
+    height: auto;
+    padding-top: 56.25%;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.card__textbox{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+.card__textbox > * + *{
+	margin-top: 10px;
+}
+.card__titletext{
+	font-size: 1.25rem;
+	font-weight: bold;
+	line-height: 125%;
+}
+.card__overviewtext{
+	font-size: 1rem;
+	line-height: 150%;
+    text-align: justify;
+}
+.card-skin{
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 1150px){
+    .profile-list ul{
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 960px){
+    .profile-txt{
+        grid-area: b;
+    }
+    .profile-img{
+        grid-area: a;
+    }
+    .profile-list ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "a"
+          "b";
+        gap: 30px;
+        align-items: center;
+    }
+    .profile-img-pc{display: none;}
+    .profile-img-sp{display: block;}
+    .about-block-item{
+        padding: 50px;
+        border-radius: 50px;
+        margin-bottom: 100px;
+    }
+    .strength-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .profile-txt{
+        font-size: 1rem;
+    }
+    .strength-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 650px){
+    .profile-name{
+        font-size: 5.5vw;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .strength-card{
+        gap: 30px;
+    }
+    .about-block-item{
+        padding: 50px;
+        border-radius: 50px;
+        margin-bottom: 70px;
+    }
+}
+@media screen and (max-width: 499px){
+    .about-block-item{
+        padding: 30px;
+        border-radius: 40px;
+        margin-bottom: 70px;
+    }
+    .profile-name{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .profile-txt{
+        font-size: 0.875rem;
+    }
+    .profile-txt p{
+        margin-bottom: 10px;
+    }
+    .card__titletext{
+      font-size: 1rem;
+      line-height: 125%;
+    }
+    .card__overviewtext{
+      font-size: 0.875rem;
+    }
+    .card-skin{
+      border-radius: 10px;
+    }
+}
+
+
+
+/*==================================================
+SKILL BAR
+==================================================*/
+.skill-bar-list{
+	margin-top: 50px;
+}
+.skill {
+	margin-bottom:20px;
+}
+
+.label {
+	display:block;
+	margin-bottom:7px;
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+/* バーの外枠 */
+.bar {
+	position:relative;
+	width:100%;    /* バー全体の幅 */
+	height:60px;
+	background:#ccc;
+	overflow:hidden;
+}
+
+/* 黄色の塗り部分 */
+.fill-red {
+	height:100%;
+	background:#be6e72;
+}
+.fill-green {
+	height:100%;
+	background:#a3b18a;
+}
+
+/* 区切り線（全体に固定表示） */
+.ticks {
+	position:absolute;
+	top:0; left:0; right:0; bottom:0;
+	pointer-events:none;
+	background:
+    /* 1本目 */
+    repeating-linear-gradient(to bottom, #FFF 0 2px, transparent 2px 6px)
+      25% 0 / 2px 100% no-repeat,
+    /* 2本目 */
+    repeating-linear-gradient(to bottom, #FFF 0 2px, transparent 2px 6px)
+      50% 0 / 2px 100% no-repeat,
+	/* 2本目 */
+    repeating-linear-gradient(to bottom, #FFF 0 2px, transparent 2px 6px)
+      75% 0 / 2px 100% no-repeat;
+}
+
+
+
+/*==================================================
+MEMORIES
+==================================================*/
+.memories-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+	margin-top: 50px;
+}
+.memories-list-item{
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+.memories-list-item img{
+	width: 100%;
+	height:	100%;
+}
+.memories-list-item .caption {
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.memories-list-item .mask {
+	width: 100%;
+	height:	100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;	/* マスクを表示しない */
+	background-color: rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:	all 0.6s ease;
+}
+.memories-list-item:hover .mask {
+	opacity: 1;	/* マスクを表示する */
+}
+@media screen and (max-width: 960px){
+    .memories-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 650px){
+    .memories-list{
+        gap: 20px;
+    }
+    .memories-list-item{
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 499px){
+    .memories-list{
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .skill-bar-list{
+        margin-top: 20px;
+    }
+    .bar {height: 45px;}
+    .skill {
+        margin-bottom:20px;
+    }
+    .label {
+        margin-bottom: 5px;
+        font-size: 1.125rem;
+}
+}
+
+
+/*==================================================
+GALLERY-PAGE
+==================================================*/
+.gallery-block-item{
+	margin-bottom: 100px;
+}
+.gallery-block-item:last-child{
+	margin-bottom: 0;
+}
+.gallery-ttl-first{
+	font-family: "Kaisei Decol", serif;
+	font-size: 2.125rem;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	
+	display: inline-block;
+    position: relative;
+    padding: 0 2em;
+    color: #333333;
+	margin-bottom: 20px;
+}
+.gallery-ttl-first::before{
+	content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+	left: 0;
+    width: 35px;
+    height: 1px;
+    background-color: #333333;
+}
+.gallery-ttl-first small{
+	font-family: "Zen Maru Gothic", sans-serif;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+.gallery-block{
+	background: #eef1ea;
+	padding: 20px 0 70px 0;
+	margin: 0 auto;
+}
+ul.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+	text-align: center;
+}
+
+ul.gallery li {
+	display: inline-block;
+}
+
+ul.gallery li img {
+	width: 100%;
+	height: auto;
+	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 960px){
+	ul.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
+		text-align: center;
+	}
+	ul.gallery li img {
+		width: 100%;
+		height: auto;
+		box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	}
+}
+@media screen and (max-width: 767px){
+	.gallery-ttl-first{font-size: 2rem;}
+	.gallery-ttl-first small{font-size: 1.125rem}
+	.gallery-block-item{
+		margin-bottom: 70px;
+	}
+	.gallery-block-item:last-child{
+		margin-bottom: 0;
+	}
+	ul.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 499px){
+	.gallery-ttl-first{font-size: 1.5625rem;}
+	.gallery-ttl-first small{font-size: 1rem}
+	.gallery-ttl-first::before{
+		width: 30px;
+		height: 1px;
+	}
+	.gallery-ttl p{
+		font-size: 0.875rem;
+	}
+	.gallery-block{
+		background: #eef1ea;
+		padding: 20px 0 50px 0;
+		margin: 0 auto;
+	}
+	.gallery-block-item{
+		margin-bottom: 50px;
+	}
+	.gallery-block-item:last-child{
+		margin-bottom: 0;
+	}
+}
