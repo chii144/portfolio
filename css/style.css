@@ -617,7 +617,7 @@ MAIN-BLOCK
 	letter-spacing: 0.05em;
 	position: relative;
 	text-align: center;
-	top: 80px;
+	top: 110px;
 	
 	display: flex;
 	flex-direction: column;
@@ -642,7 +642,7 @@ MAIN-BLOCK
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	text-align: justify;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 100px;
 	padding: 35px 55px;
 	border-radius: 15px;
@@ -696,7 +696,7 @@ MAIN-BLOCK
 		line-height: 1em;
 	}
 	.outline-txt{
-		margin-top: 80px;
+		margin-top: 120px;
 	}
     .curved-white-top{
         background: #FFF;
@@ -704,6 +704,9 @@ MAIN-BLOCK
     }
 }
 @media screen and (max-width: 1350px){
+	.works-outline-ttl span{
+		
+	}
 	.top-mockup{
 		background-size: 130%;
 		background-position: 40% -17vw;
@@ -717,18 +720,15 @@ MAIN-BLOCK
     .curved-white-top{
         top: 800px;
     }
-    .works-ttl, .works-outline-ttl{
-		font-size: 2.125rem;
-	}
 	.top-mockup{
 		background-size: 150%;
 		background-position: 45% -15vw;
 	}
     .works-outline-ttl{
-        top: 70px;
+        top: 100px;
     }
 	.outline-txt{
-		margin-top: 80px;
+		margin-top: 100px;
 		margin-bottom: 70px;
 	}
 }
@@ -751,17 +751,13 @@ MAIN-BLOCK
     .curved-white-top{
         top: 700px;
     }
-    .works-outline-ttl{
-        font-size: 2.125rem;
-    }
-    .works-outline-ttl span{
-        font-size: 1.125rem;
-    }
+    .works-outline-ttl{}
+    .works-outline-ttl span{}
 	.inner-block1{
 		width: calc(100% - 10%);
 	}
 	.outline-txt{
-		margin-top: -120px;
+		margin-top: -70px;
 		margin-bottom: 70px;
 	}
 	.works-info ul li p {
@@ -804,16 +800,14 @@ MAIN-BLOCK
 	.curved-white-top{
 		top: 660px;
 	}
-    .works-outline-ttl{
-        
-    }
+    
     .works-block ul{
         margin-bottom: 100px;
     }
     .outline-txt{
         font-size: 1rem;
         padding: 40px;
-        margin-top: -100px;
+        margin-top: -60px;
         margin-bottom: 50px;
     }
 	.works-info ul li {
@@ -849,9 +843,10 @@ MAIN-BLOCK
 	.curved-pink{padding-bottom: 100px;}
     .works-ttl {top: 220px;}
     .outline-txt{
-        margin-top: -30px;
+        margin-top: 70px;
         margin-bottom: 50px;
     }
+	.works-outline-ttl{font-size: 2.375rem;}
 }
 @media screen and (max-width: 499px){
     header{
@@ -888,7 +883,8 @@ MAIN-BLOCK
     }
 	.works-ttl{
 		top: 70px;
-		font-size: 1.75rem;
+		font-size: 1.8125rem;
+		line-height: 1.9rem;
 	}
     .works-ttl-1st{
         font-size: 1.125rem;
@@ -905,8 +901,8 @@ MAIN-BLOCK
     }
 	.br-960{display: none!important;}
     .top-mockup{
-		background-size: 200%;
-		background-position: 65% 12vw;
+		background-size: 230%;
+		background-position: 55% 12vw;
 		height: 700px;
 	}
 	.curved {
@@ -915,21 +911,22 @@ MAIN-BLOCK
 		height: 200px;
 	}
     .curved-white{
-		background: #FFF;
-		top: 510px;
-		padding-bottom: 150px;
+		top: 600px;
 	}
     .curved-white-top{
 		top: 640px;
 	}
     .works-outline-ttl {
-        font-size: 1.75rem;
-        top: 30px;
-    }
+		font-size: 1.8125rem;
+        top: 80px;
+	}
+	.works-outline-ttl span{
+		font-size: 1rem;
+	}
     .works-outline-ttl::before{height: 30px;}
     .outline-txt{
-        margin-top: -70px;
-        margin-bottom: 40px;
+        margin-top: 140px;
+        margin-bottom: 50px;
         padding: 25px;
         border-radius: 15px;
     }
@@ -943,14 +940,11 @@ MAIN-BLOCK
         box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
         transform: rotate(10deg);
     }
-
     .outline-txt::after {
         top: 0;
         width: 10px;
         right: 50px;
-        border: solid 5px #e6f5eb;
     }
-
 }
 
 @media screen and (max-width: 375px){
@@ -971,18 +965,19 @@ MAIN-BLOCK
     }
 	.works-ttl{
 		top: 80px;
-		font-size: 1.375rem;
+		font-size: 7.625vw;
 	}
      .works-outline-ttl span{
         font-size: 1rem;
     }
     .works-outline-ttl {
-        font-size: 1.375rem;
+		top: 70px;
+        font-size: 1.75rem;
     }
     .top-mockup{
-		background-size: 200%;
-		background-position: 65% 14vw;
-		height: 550px;
+		background-size: 260%;
+		background-position: 55% 16vw;
+		height: 650px;
 	}
     .curved {
 		border-top-left-radius: 50%;
@@ -991,7 +986,7 @@ MAIN-BLOCK
 	}
     .curved-white{
 		background: #FFF;
-		top: 400px;
+		top: 550px;
 		padding-bottom: 150px;
 	}
     .curved-green{
@@ -1005,7 +1000,7 @@ MAIN-BLOCK
 		padding-bottom: 150px;
 	}
     .outline-txt{
-		margin-top: -40px;
+		margin-top: 110px;
         letter-spacing: 0;
         font-size: 0.9375rem;
 	}
@@ -1413,24 +1408,16 @@ WORSKS LIST
     .works-list{
         margin-top: 370px!important;
     }
-    .works-list-first{
-    }
-	.works-list-container{
-		
-	}
 }
-@media screen and (max-width: 1350px) {
-    .works-list-first{
-        
-    }
+@media screen and (max-width: 1350px){
 	.works-list-container{
 		width: calc(100% - 10%);
 	}
-	.works-list-container .card-inner {
+	.works-list-container .card-inner{
 		height: 15.25rem;
 	}
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px){
 	.works-list-first{
         margin-top: 120px;
         padding-bottom: 120px;
