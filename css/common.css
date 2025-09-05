@@ -1,1 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+    font-size: 100%;
+}
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, header, footer,
+div,
+dl, dt, dd,
+ul, ol, li,
+pre,
+form,
+fieldset,
+p,
+table,
+blockquote {
+	margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+dd {
+  margin-left: 0;
+}
+
+/* Tables */
+/* ============================================ */
+table {
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+/* Images */
+/* ============================================ */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Text */
+/* ============================================ */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
