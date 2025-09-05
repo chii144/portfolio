@@ -164,7 +164,7 @@ header{
 	visibility: hidden;
 	overflow: hidden;
 
-    background-image: url("..images/menu-pc.jpg");
+    background-image: url("../images/menu-pc.jpg");
     background-size: cover;
 	background-position: 100%;
 	background-repeat: no-repeat;
@@ -235,7 +235,7 @@ MAIN-BLOCK
 }
 ._cloud_toppage{
     position: relative;
-	background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png"), url("..images/port-name-pc.png");
+	background-image: url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png"), url("../images/port-name-pc.png");
 	background-position:
 		left top,
 		right top,
@@ -445,7 +445,7 @@ MAIN-BLOCK
 @media screen and (max-width: 650px){
 	._cloud_toppage{
 		position: relative;
-		background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png"), url("..images/port-name-sp.png");
+		background-image: url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png"), url("../images/port-name-sp.png");
 		background-position:
 			left top,
 			right top,
@@ -552,28 +552,28 @@ MAIN-BLOCK
 
 /* CAO LE PHUONG CHI PORTFOLIO website 2025 */
 .top-mockup-summer{
-	background-image: url("..images/top-mockup-summer.jpg");	
+	background-image: url("../images/top-mockup-summer.jpg");
 }
 .top-mockup-line{
-	background-image: url("..images/top-mockup-line.jpg");	
+	background-image: url("../images/top-mockup-line.jpg");
 }
 .top-mockup-ins{
-	background-image: url("..images/top-mockup-ins.jpg");	
+	background-image: url("../images/top-mockup-ins.jpg");
 }
 .top-mockup-venus{
-	background-image: url("..images/top-mockup-venus.jpg");	
+	background-image: url("../images/top-mockup-venus.jpg");
 }
 .top-mockup-belle{
-	background-image: url("..images/top-mockup-belle.jpg");	
+	background-image: url("../images/top-mockup-belle.jpg");
 }
 .top-mockup-chii{
-	background-image: url("..images/top-mockup-chii.jpg");	
+	background-image: url("../images/top-mockup-chii.jpg");
 }
 .top-mockup-portfolio{
-	background-image: url("..images/top-mockup-portfolio.jpg");	
+	background-image: url("../images/top-mockup-portfolio.jpg");
 }
 .top-mockup-drft1{
-	background-image: url("..images/top-mockup-drft1.jpg");	
+	background-image: url("../images/top-mockup-drft1.jpg");
 }
 .top-mockup{
     background-size: cover;
@@ -871,7 +871,7 @@ MAIN-BLOCK
       transform: translate(-50%, -50%);
     }
     .black-bg{
-        background-image: url("..images/menu-sp.jpg");
+        background-image: url("../images/menu-sp.jpg");
         background-size: cover;
         background-position: 100%;
         background-repeat: no-repeat;
@@ -964,7 +964,7 @@ MAIN-BLOCK
       height: 22px;
     }
         .black-bg{
-        background-image: url("..images/menu-sp.jpg");
+        background-image: url("../images/menu-sp.jpg");
         background-size: cover;
         background-position: 100% 0;
         background-repeat: no-repeat;
@@ -1210,7 +1210,7 @@ WORSKS LIST
 }
 
 .iconBox{
-	background-image: url("..images/arrow-white.png");
+	background-image: url("../images/arrow-white.png");
 	background-size: 15px;
 	background-repeat: no-repeat;
 	background-position: 50% 30px;
@@ -1446,7 +1446,7 @@ WORSKS LIST
 		height: 5.25rem;
 	}
 	.iconBox{
-	  background-image: url("..images/arrow-white.png");
+	  background-image: url("../images/arrow-white.png");
 	  background-size: 15px;
 	  background-repeat: no-repeat;
 	  background-position: 50% 24px;
@@ -1549,7 +1549,7 @@ FOOTER
 .footer-cloud{
 	position: relative;
 	height: 450px;
-	background-image:url("..images/cloud-left.png"), url("..images/cloud-right.png");
+	background-image:url("../images/cloud-left.png"), url("../images/cloud-right.png");
 	background-position:
 		left bottom,
 		right bottom;
@@ -1632,7 +1632,7 @@ FOOTER
 	.footer-cloud{
 		position: relative;
 		height: 350px;
-		background-image:url("..images/cloud-left.png"), url("..images/cloud-right.png");
+		background-image:url("../images/cloud-left.png"), url("../images/cloud-right.png");
 		background-size: 400px;
 	}
 	.footer-name{
@@ -1687,7 +1687,7 @@ FOOTER
 @media screen and (max-width: 650px){
     .footer-cloud{
         height: 300px;
-        background-image:url("..images/cloud-left.png"), url("..images/cloud-right.png");
+        background-image:url("../images/cloud-left.png"), url("../images/cloud-right.png");
         background-position:
             left top,
             right top;
