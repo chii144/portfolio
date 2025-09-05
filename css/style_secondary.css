@@ -105,12 +105,15 @@ SECONDARY PAGE CSS
     height: 1px;
     background-color: #920d14;
 }
-@media screen and (max-width: 1350px){
-    .secondary-ttl{
+@media screen and (max-width: 1450px){
+	.secondary-ttl{
 		font-size: 2.375rem;
+		line-height: 1em;
 	}
+}
+@media screen and (max-width: 1350px){
 	.secondary-ttl span{
-		font-size: 1.175rem;
+		
 	}
 	.header-cloud{
 		position: relative;
@@ -145,7 +148,7 @@ SECONDARY PAGE CSS
 @media screen and (max-width: 650px){
     .secondary-ttl{
 		font-size: 2.375rem;
-		 top: 170px;
+		top: 170px;
 	}
     ._top{
         font-size: 2.375rem;
@@ -167,7 +170,7 @@ SECONDARY PAGE CSS
 }
 @media screen and (max-width: 499px){
 	.secondary-ttl{
-		font-size: 2rem;
+		font-size: 1.8125rem;
 		top: 150px;
 	}
     ._top{
@@ -197,16 +200,17 @@ SECONDARY PAGE CSS
 		font-size: 1rem;
 		padding: 5px 70px;
 	}
-  
 }
 @media screen and (max-width: 375px){
 	.header-cloud{
 		background-size: 250px;
 	}
-        ._top{
+	.secondary-ttl{
+		font-size: 1.75rem;
+	}
+    ._top{
         font-size: 2rem;
         top: 70px;
-        
     }
 }
 
