@@ -16,7 +16,7 @@ SECONDARY PAGE CSS
 .header-cloud{
 	position: relative;
 	height: 450px;
-	background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+	background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png");
 	background-position:
 		left top,
 		right top;
@@ -115,7 +115,7 @@ SECONDARY PAGE CSS
 	.header-cloud{
 		position: relative;
 		height: 400px;
-		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png");
 		background-position:
 			left top,
 			right top;
@@ -129,7 +129,7 @@ SECONDARY PAGE CSS
 	.header-cloud{
 		position: relative;
 		height: 350px;
-		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png");
 		background-position:
 			left top,
 			right top;
@@ -154,7 +154,7 @@ SECONDARY PAGE CSS
 	.header-cloud{
 		position: relative;
 		height: 300px;
-		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png");
 		background-position:
 			left top,
 			right top;
@@ -184,7 +184,7 @@ SECONDARY PAGE CSS
 	.header-cloud{
 		position: relative;
 		height: 250px;
-		background-image:url("../images/cloud-left-top.png"), url("../images/cloud-right-top.png");
+		background-image:url("..images/cloud-left-top.png"), url("..images/cloud-right-top.png");
 		background-position:
 			left top,
 			right top;
@@ -273,9 +273,9 @@ STRENTH
     height: auto;
 }
 
-.neko-1{background: url("../images/neko-1.jpg")no-repeat center;}
-.neko-2{background: url("../images/neko-2.jpg")no-repeat center;}
-.neko-3{background: url("../images/neko-3.jpg")no-repeat center;}
+.neko-1{background: url("..images/neko-1.jpg")no-repeat center;}
+.neko-2{background: url("..images/neko-2.jpg")no-repeat center;}
+.neko-3{background: url("..images/neko-3.jpg")no-repeat center;}
 .card__imgframe{
     width: 100%;
     height: auto;
