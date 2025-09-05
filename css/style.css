@@ -346,7 +346,9 @@ MAIN-BLOCK
         top: 270px;
         left: 80px;
     }
-	
+	.about-top{
+        margin-top: 220px!important;
+    }
 }
 @media screen and (max-width: 1150px){
     ._cloud_toppage{
@@ -369,8 +371,8 @@ MAIN-BLOCK
         margin-top: 10px;
         letter-spacing: 0.1em;
     }
-    .about-top{
-        margin-top: 230px!important;
+	.about-top{
+        margin-top: 210px!important;
     }
 }
 @media screen and (max-width: 960px){
@@ -440,6 +442,9 @@ MAIN-BLOCK
         font-size: 0.875rem;
         margin-top: 10px;
         letter-spacing: 0.1em;
+    }
+	.about-top{
+        margin-top: 200px!important;
     }
 }
 @media screen and (max-width: 650px){
@@ -1416,6 +1421,9 @@ WORSKS LIST
     .works-list{
         margin-top: 410px!important;
     }
+	.works-list-first{
+		margin-top: 120px;
+	}
 }
 @media screen and (max-width: 1350px){
 	.works-list-container{
@@ -1427,7 +1435,7 @@ WORSKS LIST
 }
 @media screen and (max-width: 1150px){
 	.works-list-first{
-        margin-top: 120px;
+        margin-top: 110px;
         padding-bottom: 120px;
     }
 	.works-list{
@@ -1455,13 +1463,13 @@ WORSKS LIST
 		grid-template-columns: 1fr 1fr;
 	}
     .works-list-first{
-        margin-top: 180px;
+        margin-top: 160px;
         padding-bottom: 100px;
     }
 }
 @media screen and (max-width: 767px){
     .works-list-first{
-        margin-top: 140px;
+        margin-top: 120px;
         padding-bottom: 100px;
     }
 	.works-list{
@@ -1500,7 +1508,7 @@ WORSKS LIST
         margin-top: 270px!important;
     }
     .works-list-first{
-        margin-top: 100px;
+        margin-top: 80px;
         padding-bottom: 70px;
     }
     .works-list-container .card-inner {
@@ -1521,7 +1529,7 @@ WORSKS LIST
 			margin-top: 220px!important;
     }
 	.works-list-first{
-        margin-top: 120px;
+        margin-top: 110px;
         padding-bottom: 70px;
     }
     .button-23 a {
