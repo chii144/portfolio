@@ -548,6 +548,7 @@ MEMORIES
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 .memories-list-item .mask {
 	width: 100%;
