@@ -8,7 +8,7 @@ SECONDARY PAGE CSS
 	background-image: linear-gradient(#ffffff, #eef1ea 70%);
 	padding-top: 0;
 }
-.about-block{
+.about-block, .about-top{
 	background: #eef1ea;
 	margin: 0 auto;
 	padding: 20px 0;
@@ -382,7 +382,7 @@ STRENTH
         align-items: center;
     }
     .profile-img-pc{display: none;}
-    .profile-img-sp{display: block;}
+    .profile-img-sp{display: block;margin-bottom: 30px;}
     .about-block-item{
         padding: 50px;
         border-radius: 50px;
@@ -435,6 +435,9 @@ STRENTH
         margin-bottom: 30px;
         margin-top: 20px;
     }
+	.profile-img-sp{
+		margin-bottom: 20px;
+	}
     .profile-txt{
         font-size: 0.875rem;
     }
