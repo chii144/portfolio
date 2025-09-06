@@ -1798,18 +1798,18 @@ FOOTER
 #loading
 ==================================================*/
 .loader-bg {
-	align-items: center;
-	background-color: #FFFFFF;
-	margin: 0 auto;
+	z-index: 999999999999999999999;
 	display: flex;
-	height: 100vh;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	background-color: #FFFFFF;
+	width: 100vw;
+	height: calc( var(--vh) * 100 );
+	
 	left: 0;
 	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 999999999999999999999;
+	top: 0;	
 }
 
 .loader img {
