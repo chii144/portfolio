@@ -340,6 +340,9 @@ MAIN-BLOCK
         top: 270px;
         left: 80px;
     }
+	.about-top{
+		margin-top: 220px!important;
+	}
 	
 }
 @media screen and (max-width: 1150px){
@@ -364,11 +367,10 @@ MAIN-BLOCK
         letter-spacing: 0.1em;
     }
     .about-top{
-        margin-top: 230px!important;
+        margin-top: 210px!important;
     }
 }
 @media screen and (max-width: 960px){
-	
 	._cloud_toppage{
 		position: relative;
 		background-position:
@@ -435,6 +437,9 @@ MAIN-BLOCK
         margin-top: 10px;
         letter-spacing: 0.1em;
     }
+	.about-top{
+		margin-top: 200px!important;
+	}
 }
 @media screen and (max-width: 650px){
 	._cloud_toppage{
@@ -480,7 +485,7 @@ MAIN-BLOCK
         font-size: 1;
     }
     .about-top{
-        margin-top: 150px!important;
+        margin-top: 130px!important;
     }
 }
 @media screen and (max-width: 375px){
@@ -498,7 +503,7 @@ MAIN-BLOCK
 		height: 700px;
 	}
     .about-top{
-        margin-top: 100px!important;
+        margin-top: 85px!important;
     }
     .about-block-item2{
         margin-top: 90px!important;
@@ -519,6 +524,7 @@ MAIN-BLOCK
 	flex-direction: column;
 	font-family: "Kaisei Decol", serif;
 	font-size: 2.75rem;
+	line-height: 1.3;
 	font-weight: 500;
 	letter-spacing: 0.05em;
 }
@@ -607,11 +613,12 @@ MAIN-BLOCK
 	z-index: 9999;
 	font-family: "Kaisei Decol", serif;
 	font-size: 2.75rem;
+	line-height: 1.3;
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	position: relative;
 	text-align: center;
-	top: 80px;
+	top: 100px;
 	
 	display: flex;
 	flex-direction: column;
@@ -636,7 +643,7 @@ MAIN-BLOCK
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	text-align: justify;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 100px;
 	padding: 35px 55px;
 	border-radius: 15px;
@@ -679,18 +686,17 @@ MAIN-BLOCK
 @media screen and (max-width: 1450px){
     .works-ttl{
 		width: calc(100% - 10%);
-		font-size: 2.375rem;
 	}
 	.top-mockup{
 		background-size: 120%;
 		background-position: 45% -17vw;
 	}
-	.works-outline-ttl{
-		font-size: 2.375rem;
-		line-height: 1em;
+	.works-ttl, .works-outline-ttl{
+		line-height: 1.3;
 	}
 	.outline-txt{
-		margin-top: 80px;
+		margin-top: 140px;
+		margin-bottom: 90px;
 	}
     .curved-white-top{
         background: #FFF;
@@ -698,11 +704,21 @@ MAIN-BLOCK
     }
 }
 @media screen and (max-width: 1350px){
+	.works-ttl, .works-outline-ttl{
+		font-size: 2.375rem;
+		line-height: 1.3;
+	}
+	.works-ttl span, .works-outline-ttl span{
+		font-size: 1.3175rem;
+	}
+	.outline-txt{
+		margin-top: 120px;
+		margin-bottom: 80px;
+	}
 	.top-mockup{
 		background-size: 130%;
 		background-position: 40% -17vw;
 	}
-
 	.top-nav{
 		width: 40%;
 	}
@@ -712,18 +728,18 @@ MAIN-BLOCK
         top: 800px;
     }
     .works-ttl, .works-outline-ttl{
-		font-size: 2.125rem;
+		
 	}
 	.top-mockup{
 		background-size: 150%;
 		background-position: 45% -15vw;
 	}
     .works-outline-ttl{
-        top: 70px;
+        top: 90px;
     }
 	.outline-txt{
-		margin-top: 80px;
-		margin-bottom: 70px;
+		margin-top: 100px;
+		margin-bottom: 80px;
 	}
 }
 @media screen and (max-width: 960px){
@@ -731,7 +747,7 @@ MAIN-BLOCK
 	.top-nav ul li{font-size: 1rem;}
 	.top-nav ul li span{font-size: 0.75rem;}
 	.works-ttl{
-		line-height: 1.22em;
+		line-height: 1.12em;
 	}
     .top-mockup{
 		background-size: 155%;
@@ -745,17 +761,11 @@ MAIN-BLOCK
     .curved-white-top{
         top: 700px;
     }
-    .works-outline-ttl{
-        font-size: 2.125rem;
-    }
-    .works-outline-ttl span{
-        font-size: 1.125rem;
-    }
 	.inner-block1{
 		width: calc(100% - 10%);
 	}
 	.outline-txt{
-		margin-top: -120px;
+		margin-top: -70px;
 		margin-bottom: 70px;
 	}
 	.works-info ul li p {
@@ -798,17 +808,15 @@ MAIN-BLOCK
 	.curved-white-top{
 		top: 660px;
 	}
-    .works-outline-ttl{
-        
-    }
+    
     .works-block ul{
         margin-bottom: 100px;
     }
     .outline-txt{
         font-size: 1rem;
         padding: 40px;
-        margin-top: -100px;
-        margin-bottom: 50px;
+        margin-top: -70px;
+        margin-bottom: 60px;
     }
 	.works-info ul li {
 		display: flex;
@@ -826,8 +834,8 @@ MAIN-BLOCK
         
     }
     .top-mockup{
-		background-size: 200%;
-		background-position: 50% -5vw;
+		background-size: 220%;
+		background-position: 50% -10vw;
 		height: 800px;
 	}
 	.curved {
@@ -837,14 +845,17 @@ MAIN-BLOCK
 	}
 	.curved-white{
 		background: #FFF;
-		top: 580px;
+		top: 630px;
 		padding-bottom: 100px;
 	}
-	.curved-pink{padding-bottom: 100px;}
+	.curved-pink, .curved-green-top, .curved-white-top{padding-bottom: 100px;}
+	.works-outline-ttl, .works-ttl{
+        font-size: 2.125rem;
+    }
     .works-ttl {top: 220px;}
     .outline-txt{
-        margin-top: -30px;
-        margin-bottom: 50px;
+        margin-top: 110px;
+        margin-bottom: 60px;
     }
 }
 @media screen and (max-width: 499px){
@@ -867,7 +878,7 @@ MAIN-BLOCK
     .black-bg{
         background-image: url("../images/menu-sp.jpg");
         background-size: cover;
-        background-position: 100%;
+        background-position: 100% 0;
         background-repeat: no-repeat;
     }
     .black-bg ul{
@@ -882,10 +893,10 @@ MAIN-BLOCK
     }
 	.works-ttl{
 		top: 70px;
-		font-size: 1.75rem;
+		font-size: 2rem;
 	}
     .works-ttl-1st{
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
     .works-ttl-1st::before{
         content: '';
@@ -899,8 +910,8 @@ MAIN-BLOCK
     }
 	.br-960{display: none!important;}
     .top-mockup{
-		background-size: 200%;
-		background-position: 65% 12vw;
+		background-size: 240%;
+		background-position: 55% 6.5vw;
 		height: 700px;
 	}
 	.curved {
@@ -910,20 +921,25 @@ MAIN-BLOCK
 	}
     .curved-white{
 		background: #FFF;
-		top: 510px;
+		top: 600px;
 		padding-bottom: 150px;
 	}
     .curved-white-top{
 		top: 640px;
+		padding-bottom: 150px;
 	}
+	.curved-green, .curved-green-top{padding-bottom: 150px;}
     .works-outline-ttl {
-        font-size: 1.75rem;
-        top: 30px;
+        font-size: 2rem;
+        top: 70px;
     }
+	.works-outline-ttl span{
+		font-size: 1rem;
+	}
     .works-outline-ttl::before{height: 30px;}
     .outline-txt{
-        margin-top: -70px;
-        margin-bottom: 40px;
+        margin-top: 130px;
+        margin-bottom: 50px;
         padding: 25px;
         border-radius: 15px;
     }
@@ -937,14 +953,11 @@ MAIN-BLOCK
         box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
         transform: rotate(10deg);
     }
-
     .outline-txt::after {
         top: 0;
         width: 10px;
         right: 50px;
-        border: solid 5px #e6f5eb;
     }
-
 }
 
 @media screen and (max-width: 375px){
@@ -957,7 +970,7 @@ MAIN-BLOCK
       width: 35px;
       height: 22px;
     }
-        .black-bg{
+    .black-bg{
         background-image: url("../images/menu-sp.jpg");
         background-size: cover;
         background-position: 100% 0;
@@ -965,18 +978,15 @@ MAIN-BLOCK
     }
 	.works-ttl{
 		top: 80px;
-		font-size: 1.375rem;
+		font-size: 7.575vw;
 	}
-     .works-outline-ttl span{
-        font-size: 1rem;
-    }
     .works-outline-ttl {
-        font-size: 1.375rem;
+        font-size: 1.75rem;
     }
     .top-mockup{
-		background-size: 200%;
-		background-position: 65% 14vw;
-		height: 550px;
+		background-size: 240%;
+		background-position: 55% 15vw;
+		height: 650px;
 	}
     .curved {
 		border-top-left-radius: 50%;
@@ -985,7 +995,7 @@ MAIN-BLOCK
 	}
     .curved-white{
 		background: #FFF;
-		top: 400px;
+		top: 520px;
 		padding-bottom: 150px;
 	}
     .curved-green{
@@ -999,7 +1009,8 @@ MAIN-BLOCK
 		padding-bottom: 150px;
 	}
     .outline-txt{
-		margin-top: -40px;
+		margin-top: 90px;
+		margin-bottom: 50px;
         letter-spacing: 0;
         font-size: 0.9375rem;
 	}
@@ -1013,7 +1024,7 @@ MAIN-BLOCK
 #works-page infomation
 ====================================*/
 .works-info ul{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .works-info ul li {
     display: flex;
@@ -1050,10 +1061,10 @@ MAIN-BLOCK
 .design{top: 0;}
 
 .works-design{
-	margin-bottom: 150px;
+	margin-bottom: 180px;
 }
 .design-image, .webdesign-grid, .three-design-grid{
-	margin-top: 70px;
+	margin-top: 100px;
 }
 .design-image-shadow{
 	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
@@ -1087,7 +1098,19 @@ h2.circle-two:first-child{
 }
 h2.circle-two::before {
 }
-
+@media screen and (max-width: 1350px){
+	.works-info ul{
+		margin-bottom: 120px;
+	}
+	.design-image, .webdesign-grid, .three-design-grid{
+		margin-top: 90px;
+	}
+}
+@media screen and (max-width: 1150px){
+	.design-image, .webdesign-grid, .three-design-grid{
+		margin-top: 80px;
+	}
+}
 @media screen and (max-width: 960px) {
     .works-block{
         margin-top: 70px;
@@ -1096,7 +1119,7 @@ h2.circle-two::before {
 		width: 70%;
 	}
 	.works-design{
-		margin-bottom: 100px;
+		margin-bottom: 120px;
 	}
 	.three-design-grid{
 		display: grid;
@@ -1109,10 +1132,10 @@ h2.circle-two::before {
 }
 @media screen and (max-width: 767px) {
     .works-block{
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .works-info ul{
-		margin-bottom: 70px;
+		margin-bottom: 100px;
 	}
     .works-info ul li {
         padding: 30px 0;
@@ -1126,7 +1149,7 @@ h2.circle-two::before {
         text-align: justify;
     }
 	.design-image, .webdesign-grid, .three-design-grid{
-		margin-top: 50px;
+		margin-top: 70px;
 	}
 	.webdesign-grid{gap: 30px;}
 	h2.circle-two {
@@ -1157,6 +1180,9 @@ h2.circle-two::before {
 	.venus-sp1{display: block!important;}
 }
 @media screen and (max-width: 499px){
+	.design-image, .webdesign-grid, .three-design-grid{
+		margin-top: 50px;
+	}
 	.works-design{
 		margin-bottom: 100px;
 	}
@@ -1174,7 +1200,7 @@ WORSKS LIST
 ====================================*/
 .works-list{
 	background: #eef1ea;
-	margin-top: 400px!important;
+	margin-top: 470px!important;
 	padding: 10px 0;
 }
 .works-list-first{
@@ -1335,7 +1361,6 @@ WORSKS LIST
 
 
 .button-23 a {
-	font-family: 'Noto Serif JP', serif;
 	font-size: 1rem;
 	font-weight: 500;
 	letter-spacing: 0.1em;
@@ -1404,19 +1429,15 @@ WORSKS LIST
 }
 
 @media screen and (max-width: 1450px){
-    .works-list{
-        margin-top: 370px!important;
-    }
-    .works-list-first{
-    }
-	.works-list-container{
-		
-	}
 }
 @media screen and (max-width: 1350px) {
-    .works-list-first{
-        
+    .works-list{
+        margin-top: 440px!important;
     }
+	.works-list-first{
+		margin-top: 120px;
+		padding-bottom: 150px;
+	}
 	.works-list-container{
 		width: calc(100% - 10%);
 	}
@@ -1430,7 +1451,7 @@ WORSKS LIST
         padding-bottom: 120px;
     }
 	.works-list{
-        margin-top: 350px!important;
+        margin-top: 430px!important;
     }
 	.works-list-container .card-inner {
 		height: 14.25rem;
@@ -1448,23 +1469,23 @@ WORSKS LIST
 }
 @media screen and (max-width: 960px){
 	.works-list{
-        margin-top: 300px!important;
+        margin-top: 350px!important;
     }
+	.works-list-first{
+		margin-top: 160px;
+		padding-bottom: 100px;
+	}
 	.works-list-container{
 		grid-template-columns: 1fr 1fr;
 	}
-    .works-list-first{
-        margin-top: 180px;
-        padding-bottom: 100px;
-    }
 }
 @media screen and (max-width: 767px){
     .works-list-first{
-        margin-top: 140px;
+        margin-top: 110px;
         padding-bottom: 100px;
     }
 	.works-list{
-        margin-top: 280px!important;
+        margin-top: 360px!important;
     }
     .works-list-container{
         gap: 1rem;
@@ -1485,6 +1506,13 @@ WORSKS LIST
     }
 }
 @media screen and (max-width: 650px){
+	.works-list{
+        margin-top: 345px!important;
+    }
+	.works-list-first{
+        margin-top: 110px;
+        padding-bottom: 100px;
+    }
 	.works-list-container .card-inner {
 		height: 12rem;
 	}
@@ -1496,10 +1524,10 @@ WORSKS LIST
 @media screen and (max-width: 499px){
     .work-none{display: none;}
     .works-list{
-        margin-top: 200px!important;
+        margin-top: 270px!important;
     }
     .works-list-first{
-        margin-top: 100px;
+        margin-top: 75px;
         padding-bottom: 70px;
     }
     .works-list-container .card-inner {
@@ -1515,9 +1543,13 @@ WORSKS LIST
     }
 }
 @media screen and (max-width: 375px){
-        .works-list-first{
-        margin-top: 120px;
-        padding-bottom: 70px;
+	.works-list{
+        margin-top: 250px!important;
+		padding: 50px 0;
+    }
+    .works-list-first{
+        margin-top: 100px;
+        padding-bottom: 100px;
     }
     .button-23 a {
         font-size: 0.875rem;
