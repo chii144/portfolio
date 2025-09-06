@@ -1,4 +1,7 @@
 // JavaScript Document
+const spHeight = window.innerHeight;
+document.documentElement.style.setProperty("--vh", spHeight / 100 + "px");
+
 
 $('#hamb').click(function() {
    $(this).toggleClass('active');
