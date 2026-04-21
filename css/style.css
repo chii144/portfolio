@@ -577,6 +577,12 @@ MAIN-BLOCK
 .top-mockup-drft1{
 	background-image: url("../images/top-mockup-drft1.jpg");
 }
+.top-mockup-ptb{
+	background-image: url("../images/top-mockup-ptb.jpg");
+}
+.top-mockup-xhs{
+	background-image: url("../images/top-mockup-xiaohongshu.jpg");
+}
 .top-mockup{
     background-size: cover;
 	background-position: 100% -13vw;
