@@ -583,6 +583,9 @@ MAIN-BLOCK
 .top-mockup-xhs{
 	background-image: url("../images/top-mockup-xiaohongshu.jpg");
 }
+.top-mockup-magazine{
+	background-image: url("../images/top-mockup-zashi.jpg");
+}
 .top-mockup{
     background-size: cover;
 	background-position: 100% -13vw;
